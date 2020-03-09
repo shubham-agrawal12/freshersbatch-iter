@@ -12,6 +12,7 @@ public class MyPingPong implements Runnable{
 		t2.setName("PONG");
 		t1.start();
 		t2.start();
+		
 	}
 
 	public static void main(String[] args) {

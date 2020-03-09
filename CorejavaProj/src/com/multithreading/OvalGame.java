@@ -76,7 +76,7 @@ public class OvalGame extends Frame implements Runnable {
 			while(y2>75)
 			{
 				try {
-					Thread.sleep(20);
+					Thread.sleep(15);
 					y2=y2-1;
 				
 					repaint();
@@ -91,7 +91,7 @@ public class OvalGame extends Frame implements Runnable {
 			while(y2<=400)
 			{
 				try {
-					Thread.sleep(20);
+					Thread.sleep(15);
 					y2=y2+1;
 					
 					repaint();
@@ -109,7 +109,7 @@ public class OvalGame extends Frame implements Runnable {
 			while(y3>75)
 			{
 				try {
-					Thread.sleep(30);
+					Thread.sleep(20);
 					y3=y3-1;
 					
 					repaint();
@@ -124,7 +124,7 @@ public class OvalGame extends Frame implements Runnable {
 			while(y3<=400)
 			{
 				try {
-					Thread.sleep(30);
+					Thread.sleep(20);
 					y3=y3+1;
 					
 					repaint();

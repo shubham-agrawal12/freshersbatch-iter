@@ -73,15 +73,15 @@ public class MyPingPongisarelationship extends Thread{
 					}
 				}
 					};
-					ThreadGroup th1=new ThreadGroup("parent thread");
-					Thread t1=new Thread(th1,r1,"one");
-					Thread t2=new Thread(th1,r2,"two");
-					Thread t3=new Thread(th1,r3,"three");	
-					t3.setDaemon(false);			             //Daemon method
+				//	ThreadGroup th1=new ThreadGroup("parent thread");
+					Thread t1=new Thread(r1);
+					Thread t2=new Thread(r2);
+					Thread t3=new Thread(r3);	
+					//t3.setDaemon(false);			             //Daemon method
 					t1.start();
 					t2.start();
 					t3.start();
-					th1.list();
+				//	th1.list();
 					
 
 		}
